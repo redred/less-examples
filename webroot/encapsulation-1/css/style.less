@@ -1,0 +1,51 @@
+@import "variables.less";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  #custom-1;
+  background: @colors-3;
+}
+.page {
+  width: 800px;
+}
+header {
+  float: left;
+  clear: both;
+  width: 100%; 
+}
+h1 {
+  #custom-2;
+  margin: 10px;
+  background: @colors-3;
+  float: left;
+  clear: both;
+}
+.box {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  p {
+    margin: 10px;
+  }
+}
+div.box-4 {
+  #custom-2 > .colors(2);
+}
+div.box-3 {
+  #custom-2 > .colors(1);
+}
+div.box-2 {
+  #custom-1 > .colors(2);
+}
+div.box-1 {
+  #custom-1 > .colors(1);
+}

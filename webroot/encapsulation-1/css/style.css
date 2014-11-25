@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #cccccc;
+}
+.page {
+  width: 800px;
+}
+header {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+h1 {
+  margin: 10px;
+  background: #00cc00;
+  float: left;
+  clear: both;
+}
+.box {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.box p {
+  margin: 10px;
+}
+div.box-4 {
+  color: #ffffff;
+  background: #0000cc;
+}
+div.box-3 {
+  color: #0000cc;
+  background: #ffffff;
+}
+div.box-2 {
+  color: #ffffff;
+  background: #cc0000;
+}
+div.box-1 {
+  color: #cc0000;
+  background: #ffffff;
+}

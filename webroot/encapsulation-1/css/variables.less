@@ -1,0 +1,39 @@
+#custom-1 {
+
+  // Red and white
+  @colors-1-a: #cc0000;
+  @colors-1-b: #fff;
+  @colors-2-a: #fff;
+  @colors-2-b: #cc0000;
+
+  // Grey
+  @colors-3:   #ccc;
+
+  .colors (@id)  {
+    @font-color: "colors-@{id}-a";
+    @bg-color: "colors-@{id}-b";
+    color: @@font-color;
+    background: @@bg-color;
+  }
+
+}
+
+#custom-2 {
+
+  // Blue and white
+  @colors-1-a: #0000cc;
+  @colors-1-b: #fff;
+  @colors-2-a: #fff;
+  @colors-2-b: #0000cc;
+
+  // Yellow
+  @colors-3:   #00cc00;
+
+  .colors (@id)  {
+    @font-color: "colors-@{id}-a";
+    @bg-color: "colors-@{id}-b";
+    color: @@font-color;
+    background: @@bg-color;
+  }
+
+}
